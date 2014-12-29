@@ -1,0 +1,17 @@
+language: 'python'
+mapping:
+	model:
+		details:
+			type:
+				bool: 'BooleanField'
+				date: 'DateField'
+				decimal: 'DecimalField'
+				image: 'ImageField'
+				model: 'ForeignKey'
+				number: 'IntegerField'
+				string: 'CharField'
+				time: 'DateTimeField'
+patterns: [
+	'api'
+	'model'
+]
